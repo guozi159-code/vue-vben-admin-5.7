@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "imports": [
+    {
+      "name": "frontend-design",
+      "target": "frontend-design",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anthropics/skills.git",
+        "ref": "main",
+        "path": "skills/frontend-design"
+      }
+    },
+    {
+      "name": "skill-creator",
+      "target": "skill-creator",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anthropics/skills.git",
+        "ref": "main",
+        "path": "skills/skill-creator"
+      }
+    },
+    {
+      "name": "skill-installer",
+      "target": "skill-installer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/openai/skills.git",
+        "ref": "main",
+        "path": "skills/.system/skill-installer"
+      }
+    },
+    {
+      "name": "pua",
+      "target": "pua",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tanweai/pua.git",
+        "ref": "main",
+        "path": "skills/pua"
+      }
+    },
+    {
+      "name": "find-skills",
+      "target": "find-skills",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vercel-labs/skills.git",
+        "ref": "main",
+        "path": "skills/find-skills"
+      }
+    }
+  ]
+}

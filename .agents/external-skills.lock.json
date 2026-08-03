@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "target": "frontend-design",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anthropics/skills.git",
+        "ref": "main",
+        "path": "skills/frontend-design"
+      },
+      "resolvedCommit": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+      "contentHash": "sha256:1df4e3a20529334b7251360ceef0994ceec65138747a56994f9655a38c7f8e5b"
+    },
+    "skill-creator": {
+      "target": "skill-creator",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anthropics/skills.git",
+        "ref": "main",
+        "path": "skills/skill-creator"
+      },
+      "resolvedCommit": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+      "contentHash": "sha256:10a1ed14b59d912d570d6d40b1d5758a091f3261b5353c89bbb932dd6674cdf9"
+    },
+    "skill-installer": {
+      "target": "skill-installer",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/openai/skills.git",
+        "ref": "main",
+        "path": "skills/.system/skill-installer"
+      },
+      "resolvedCommit": "49f948faa9258a0c61caceaf225e179651397431",
+      "contentHash": "sha256:bfbe80ce54aadff00a5e3ae2cee8c4e57b72da08f5af0826b510e2e2f61afdf7"
+    },
+    "pua": {
+      "target": "pua",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/tanweai/pua.git",
+        "ref": "main",
+        "path": "skills/pua"
+      },
+      "resolvedCommit": "3fd4e5a1cb7a40938113b66febae532ba36f350a",
+      "contentHash": "sha256:9955095287f58702fa15cf828eb34bb56cfe07d2a05c3694f486e62090861aee"
+    },
+    "find-skills": {
+      "target": "find-skills",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/vercel-labs/skills.git",
+        "ref": "main",
+        "path": "skills/find-skills"
+      },
+      "resolvedCommit": "1164afa5f0e21ebd01e6fc11249759353f494ad1",
+      "contentHash": "sha256:402765cd5b5d4246a9ff3e8fc19872619b543d758c3399c708f27680927579b0"
+    }
+  }
+}
