@@ -59,6 +59,8 @@
     "preview": "turbo-run preview",
     "publint": "vsh publint",
     "reinstall": "pnpm run clean -- --del-lock && pnpm install",
+    "skills:check": "node ./scripts/sync-agent-skills.mjs check",
+    "skills:sync": "node ./scripts/sync-agent-skills.mjs sync",
     "test:benchmark": "vitest bench --run",
     "test:unit": "vitest run --dom",
     "test:e2e": "turbo run test:e2e",

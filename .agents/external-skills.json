@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "imports": [
+    {
+      "name": "frontend-design",
+      "target": "frontend-design",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anthropics/skills.git",
+        "ref": "main",
+        "path": "skills/frontend-design"
+      }
+    },
+    {
+      "name": "skill-creator",
+      "target": "skill-creator",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/anthropics/skills.git",
+        "ref": "main",
+        "path": "skills/skill-creator"
+      }
+    }
+  ]
+}
