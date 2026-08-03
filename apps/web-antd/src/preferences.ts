@@ -20,6 +20,16 @@ export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
     name: import.meta.env.VITE_APP_TITLE,
+    // 是否开启检查更新
+    enableCheckUpdates: true,
+    // 检查更新的时间间隔，单位为分钟
+    checkUpdatesInterval: 3,
+    // 登录超时会跳转到登录页
+    loginExpiredMode: 'page',
+    // 网页标题随着路由的title而变化
+    dynamicTitle: true,
+    // 显示水印
+    watermark: true,
   },
   copyright: appCopyrightPreferences,
 });
