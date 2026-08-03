@@ -30,6 +30,8 @@ export const overridesPreferences = defineOverridesPreferences({
     dynamicTitle: true,
     // 显示水印
     watermark: true,
+    // 路由模式，可选值：frontend、backend、mixed
+    accessMode: 'frontend',
   },
   copyright: appCopyrightPreferences,
 });
