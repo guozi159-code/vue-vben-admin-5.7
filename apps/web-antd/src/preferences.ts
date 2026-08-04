@@ -32,6 +32,8 @@ export const overridesPreferences = defineOverridesPreferences({
     watermark: true,
     // 路由模式，可选值：frontend、backend、mixed
     accessMode: 'frontend',
+    // 是否开启刷新Token
+    enableRefreshToken: true,
   },
   copyright: appCopyrightPreferences,
 });
